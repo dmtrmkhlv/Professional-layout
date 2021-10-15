@@ -28,6 +28,10 @@
     @extend .flex-c-c
 }
 
+.header__left__box{
+    display: flex;
+}
+
 .main__logo {
     display: flex;
 

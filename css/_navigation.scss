@@ -172,8 +172,9 @@
     right: 0;
     left: auto;
 
-    &::before {
-        right: 53px;
-        left: auto;
-    }
+}
+
+.last:hover .menu__item__box:before {
+    right: 53px;
+    left: auto;
 }

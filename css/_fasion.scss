@@ -1,5 +1,6 @@
 .fashion {
-    height: 620px;
+    height: calc(100vw / 1.935);
+    max-height: 620px;
     background-color: #e8e8e8;
 
     &__wrapper {
@@ -40,6 +41,8 @@
         background-image: url(../img/fashion_image.jpg);
         background-repeat: no-repeat;
         background-size: contain;
+        background-position: bottom;
+
     }
 
     &__text {

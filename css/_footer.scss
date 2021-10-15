@@ -2,7 +2,7 @@
     margin-top: 110px;
 
     &__top {
-        height: 260px;
+        min-height: 260px;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -46,6 +46,7 @@
         text-decoration: none;
         display: block;
         color: #898989;
+        margin: 12px 0;
 
         &:hover {
             color: $main_color;
